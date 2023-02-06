@@ -48,6 +48,12 @@ def getInfo(id):
                 "tag": "<@&935865603103809596>",
                 "id": 934836304955457536
             }
+        # book
+        case 1031113414535299092:
+            return {
+                "tag": "<@&1031113722632097862>",
+                "id": 1031113217675636787
+            }
         # test 
         case 932742493999616080:
            return {
@@ -97,6 +103,7 @@ async def on_message(message):
         "Shadow Lolbit est un Yes",
         "Let's try with another controlled shock",
         "Les NFTs c'est le cancer mais la NFT, y a pas mieux",
+        "It's dolphin time :dolphin:",
     ]
 
     if ("Direct Message" in str(message.channel)):
